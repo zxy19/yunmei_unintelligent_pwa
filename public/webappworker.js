@@ -1,5 +1,5 @@
-self.Version = "0.0.6";
-var CACHE_NAME ="yunmeiui_v0.0.6";
+self.Version = "0.0.7";
+var CACHE_NAME ="yunmeiui_v0.0.7";
 function canBeCached(url) {
 	if (/.*\.(png|jpg|gif|bmp|webp|js|html|css|json|ico|eot|ttf|svg|woff|woff2)/i.test(url)) return true;
 	else if(url.charAt(url.length-1)=="/")return false;

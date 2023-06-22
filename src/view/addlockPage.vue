@@ -13,7 +13,7 @@
     </el-row><br><br>
     <el-row>
         <el-button type="primary" size="large" @click="addLockWork">添加</el-button>
-        <a :href="data.appLink" target="black">
+        <a :href="data.appLink" target="black" size="large">
             <el-button type="info">App打开</el-button>
         </a>
     </el-row>
