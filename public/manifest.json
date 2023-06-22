@@ -1,0 +1,36 @@
+{
+	"name": "云梅不智能PWA",
+	"short_name": "云梅不智能",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#ffffff",
+	"description": "云梅不智能的web版",
+	"orientation": "portrait-primary",
+	"theme_color": "#FFFFFF",
+	"icons": [
+		{
+			"src": "logo.png",
+			"sizes": "128x128",
+			"type": "image/png",
+			"purpose": "any"
+		},
+		{
+			"src": "logo_big.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "any"
+		},
+		{
+			"src": "logo.png",
+			"sizes": "128x128",
+			"type": "image/png",
+			"purpose": "maskable"
+		},
+		{
+			"src": "logo_big.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "maskable"
+		}
+	]
+}

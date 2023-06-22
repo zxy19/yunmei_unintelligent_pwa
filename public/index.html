@@ -4,12 +4,21 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="manifest" href="manifest.json" />
+    <link rel="apple-touch-icon-precomposed" href="icon.png" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="云梅不智能" />
+    <link rel="icon" sizes="any" href="favicon.ico" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-square150x150logo" content="icon_1.png" />
+    <title>云梅不智能[PWA]</title>
+    <script src="./webapp.js"></script>
   </head>
   <body>
     <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong>云梅不智能【PWA】需要现代化的浏览器支持以及Javascript</strong>
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
