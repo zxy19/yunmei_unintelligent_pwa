@@ -1,24 +1,9 @@
-# yunmeiui_pwa
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# 云梅不智能PWA
+使用PWA实现蓝牙开锁的功能。
+项目使用了 Vue3 & element+
+## 项目工作的条件
++ 一个现代化的浏览器（尽可能使用新版浏览器。IOS可使用Bluefy）
++ 一个带有蓝牙功能的设备
+## 注意事项
++ 为了绕开CORS，本项目会使用位于xypp.cc的代理页面进行HTTP请求。该页面不会存储您的任何数据。
++ 本项目使用了Web BLE功能
